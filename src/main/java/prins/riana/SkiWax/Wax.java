@@ -6,6 +6,7 @@ public class Wax {
     private String color;
     private String type;
 
+    //decide which color & type of wax is needed
     public void createWax(int temp, String snow) {
         String c = "White";
         String t = "Standard";

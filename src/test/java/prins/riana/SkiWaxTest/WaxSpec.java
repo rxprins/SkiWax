@@ -6,6 +6,13 @@ import prins.riana.SkiWax.Wax;
 import static org.junit.Assert.*;
 
 public class WaxSpec {
+    @Test
+    public void createWaxSpec() {
+        Wax w1 = new Wax();
+        w1.createWax(32,"crusty");
+        String out = w1.getColor() + " " + w1.getType();
+        assertEquals("wax needed ","Red Extra",out);
+    }
 
     @Test
     public void getColorSpec() {
