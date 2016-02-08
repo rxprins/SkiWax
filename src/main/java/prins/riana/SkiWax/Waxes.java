@@ -10,7 +10,7 @@ public class Waxes {
     public static void main(String[] args) {
         int temp = 0;
         String snow;
-
+    //Ask for input from the client
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Temperature: ");
         temp = sc.nextInt();
